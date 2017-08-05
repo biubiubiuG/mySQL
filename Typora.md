@@ -1,6 +1,8 @@
 # MySQL
 
-Mysql是最流行的关系型数据库管理系统，在WEB应用方面MySQL是最好的RDBMS(Relational Database Management System：关系数据库管理系统)应用软件之一。
+
+
+#### Mysql是最流行的关系型数据库管理系统，在WEB应用方面MySQL是最好的RDBMS(Relational Database Management System：关系数据库管理系统)应用软件之一。
 
 ## 什么是数据库？
 
@@ -62,11 +64,11 @@ select count as totalcount from table1
 ### 最大
 
 ```
-select max(field1) as maxvalue from table1 
+select max(name) from winton;
 ```
 
 ### 最小
 
 ```
-
+select min(name) from winton;
 ```
